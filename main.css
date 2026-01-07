@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(245,242,227);
+	margin: 40px;
+}
+
+p{
+    color:rgb(215,155,148);
+}
+h1{
+    color:rgb(118,93,57);
+}
+h2{
+    color:rgb(118,93,57);
+}
+h3{
+    color:rgb(118,93,57);
+}
+
+#bio{
+    background: rgb(238,233,213);
+    padding: 10px; 
+    color: rgb(118,93,57);
+
+}
+
+.desserts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+}
+.desserts img {
+    width:100%;
+}
+.desserts figure {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
