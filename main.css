@@ -1,22 +1,37 @@
+
 body{
     margin: 0;
+    
     background-color: rgb(245,242,227);
 	margin: 40px;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 p{
     color:rgb(215,155,148);
+    font-family: "Comic Sans MS", sans-serif;
 }
 h1, h2, h3{
     color:rgb(118,93,57);
+    font-family: sans-serif;
 }
 
 
 #bio{
+    border-radius: 15px;
     background: rgb(238,233,213);
     padding: 10px; 
     color: rgb(118,93,57);
+    font-family: "Comic Sans MS", sans-serif;
 
+}
+
+#poem{
+    border-radius: 15px;
+    background: rgb(238,233,213);
+    padding: 10px; 
+    color: rgb(118,93,57);
+    font-family: sans-serif;
 }
 
 .desserts{
@@ -26,9 +41,11 @@ h1, h2, h3{
 
     box-sizing: border-box;
     padding: var(--gap);
+    font-family: "Comic Sans", sans-serif;
 }
 .desserts img {
     width:100%;
+
 }
 .desserts figure {
     margin:0;
@@ -39,9 +56,11 @@ h1, h2, h3{
 
 .caption{
     color:rgb(215,155,148); 
+    font-family: "Comic Sans", sans-serif;
 }
 
 a{
     color: rgb(133,123,105);
+    font-family: "Comic Sans MS", sans-serif;
 
 }
